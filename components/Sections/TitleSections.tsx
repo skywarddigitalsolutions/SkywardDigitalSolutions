@@ -1,8 +1,7 @@
 import React from "react";
 import { Divider } from "@nextui-org/react";
 
-//TODO: Agregar el id para que se pueda hacer scroll a la sección
-const TitleSections = ({ title }) => {
+const TitleSections = ({ title }: any) => {
   return (
     <>
       <h2 className="text-zinc-200 text-center mt-20 top-10 text-4xl lg:text-7xl font-extrabold">
