@@ -9,7 +9,7 @@ import {
   useDisclosure,
 } from "@nextui-org/react";
 
-export default function App() {
+export default function ButtonCards() {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   return (

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import FotoCerebro from "../../public/manocerebro.png";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-
+import Link from "next/link";
 export default function Hero() {
   const words = `Llevamos tu marca al siguiente nivel`;
 
@@ -31,12 +31,14 @@ export default function Hero() {
             id="button"
             className="text-center text-xs xl:text-xl lg:text-left flex justify-center xl:justify-start gap-5"
           >
-            <button className=" mt-10 px-4 lg:px-12 py-4 rounded-xl bg-secundario font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[white] hover:text-secundario transition-colors duration-200">
+            <button className=" mt-10 px-4 lg:px-12 py-4 rounded-xl bg-secundario/50 font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[white] hover:text-secundario transition-colors duration-200">
               Contactános
             </button>
+            <Link href="#Proyectos">
             <button className=" mt-10 px-4 lg:px-12  py-4 rounded-xl bg-white font-bold text-secundario tracking-widest uppercase transform hover:scale-105 hover:bg-[white] hover:text-secundario transition-colors duration-200">
               Ver Proyectos
             </button>
+            </Link>
           </div>
         </div>
         <div className=" mt-12 lg:mt-0 flex justify-center items-center">
