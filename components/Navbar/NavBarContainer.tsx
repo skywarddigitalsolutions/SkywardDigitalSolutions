@@ -3,8 +3,7 @@ import React from "react";
 import NavbarDesktop from "./NavBarDesktop";
 import { NavBarMobile } from "./NavBarMobile";
 
-export default function NavBarContainer(){
-
+export default function NavBarContainer() {
   return (
     <>
       <div className="hidden sm:block">
@@ -16,5 +15,3 @@ export default function NavBarContainer(){
     </>
   );
 }
-
-

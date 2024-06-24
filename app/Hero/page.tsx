@@ -1,7 +1,8 @@
 import Image from "next/image";
-import FotoCerebro from "../../public/manocerebro.png";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import Link from "next/link";
+import FotoCerebro from "../../public/manocerebro.png";
+
 export default function Hero() {
   const words = `Llevamos tu marca al siguiente nivel`;
 
@@ -44,7 +45,7 @@ export default function Hero() {
         <div className=" mt-12 lg:mt-0 flex justify-center items-center">
           <Image src={FotoCerebro} alt="imagen cerebro" />
         </div>
+    
     </div>
   );
 }
-

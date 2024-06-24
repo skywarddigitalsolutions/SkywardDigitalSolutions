@@ -23,7 +23,7 @@ export default function Home() {
       {" "}
       {!loaded && <Loader />}
       {loaded && (
-        <div className="">
+        <div>
           <NavBarContainer />
           <Hero />
           <Servicios />

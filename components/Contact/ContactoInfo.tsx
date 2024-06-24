@@ -1,7 +1,7 @@
 import React from "react";
 import { FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
-import Image from "next/image";
 import Manos from "../../public/manos.png";
+import Image from "next/image";
 import "./ContactoInfo.css";
 const ContactoInfo = () => {
   return (
