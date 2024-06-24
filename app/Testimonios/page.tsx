@@ -1,5 +1,4 @@
 import TitleSections from "@/components/Sections/TitleSections";
-import Testimonial from "@/components/Testimonials/Testimonial";
 import Faq from "../Faq/page";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 export default function Testimonios() {
