@@ -4,6 +4,7 @@ import {
   FaFacebook,
   FaTwitter,
   FaLinkedin,
+  FaTiktok,
 } from "react-icons/fa";
 import Logo from "../../public/logosds.png";
 import Image from "next/image";
@@ -21,7 +22,7 @@ export default function Footer() {
             height={150}
             className="my-10"
           />
-          <p className="text-gray-300 mx- lg:max-w-sm">
+          <p className="text-gray-300 mx- lg:max-w-sm mx-1">
             SkyWard Digital Solutions es tu socio confiable para llevar tu
             negocio al siguiente nivel. Contáctanos para más información.
           </p>
@@ -32,27 +33,27 @@ export default function Footer() {
           <h3 className="text-2xl font-bold mb-6">Navegación</h3>
           <ul className="space-y-4">
             <li>
-              <a href="#" className="hover:text-gray-300">
+              <a href="/#" className="hover:text-gray-300">
                 Inicio
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-300">
+              <a href="/#Servicios" className="hover:text-gray-300">
                 Servicios
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-300">
+              <a href="/#Proyectos" className="hover:text-gray-300">
                 Proyectos
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-300">
+              <a href="/#Testimonios" className="hover:text-gray-300">
                 Testimonios
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-300">
+              <a href="/#Contacto" className="hover:text-gray-300">
                 Contacto
               </a>
             </li>
@@ -64,7 +65,7 @@ export default function Footer() {
           <h3 className="text-2xl font-bold mb-6">Síguenos</h3>
           <div className="flex space-x-8">
             <a
-              href="https://wa.me/123456789"
+              href="https://wa.me/+5491133495502?text=Hola%20,%20quiero%20más%20información" 
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"
@@ -72,7 +73,7 @@ export default function Footer() {
               <FaWhatsapp className="h-8 w-8 hover:text-gray-300 transition" />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://instagram.com/skywarddigitalsolutions"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -80,7 +81,7 @@ export default function Footer() {
               <FaInstagram className="h-8 w-8 hover:text-gray-300 transition" />
             </a>
             <a
-              href="https://facebook.com"
+              href="https://facebook.com/skywarddigitalsolutions"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
@@ -88,21 +89,14 @@ export default function Footer() {
               <FaFacebook className="h-8 w-8 hover:text-gray-300 transition" />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://tiktok.com/skywarddigitalsolutions"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Twitter"
             >
-              <FaTwitter className="h-8 w-8 hover:text-gray-300 transition" />
+              <FaTiktok className="h-8 w-8 hover:text-gray-300 transition" />
             </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="LinkedIn"
-            >
-              <FaLinkedin className="h-8 w-8 hover:text-gray-300 transition" />
-            </a>
+            
           </div>
         </div>
       </div>

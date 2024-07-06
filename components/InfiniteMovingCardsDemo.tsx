@@ -18,31 +18,31 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "Estamos muy satisfechos con el trabajo realizado por ustedes. Nos ayudaron a transformar nuestra idea en un sitio web profesional y atractivo que ha mejorado significativamente nuestra presencia online. Recomendamos su servicio sin dudarlo",
+      name: "Nombre",
+      title: "Ascensores",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
+      "Realmente superó las expectativas con el diseño del sitio web. Desde el inicio, se mostraron comprometidos con entender las necesidades específicas y adaptaron cada detalle para reflejar la identidad de la marca. Un equipo altamente recomendable",
+      name: "Andrea",
+      title: "Aires de Pausa",
   },
   {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+    quote: "Gracias a ustedes, nuestro sitio web ahora no solo se ve increíble, sino que también está optimizado para mejorar nuestro posicionamiento en buscadores. Su enfoque meticuloso en el diseño y el SEO ha sido fundamental para nuestro éxito online",
+    name: "Nombre",
+    title: "Ferretería",
   },
   {
     quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+      "Estamos encantados con el diseño que crearon para nuestro centro integral de estética. Capturaron perfectamente la esencia de nuestro negocio, creando un sitio web visualmente atractivo y funcional. Desde que lanzamos el nuevo sitio, hemos experimentado un aumento significativo en el número de clientes que nos contactan. ¡Gracias por ayudarnos a crecer y atraer más clientes!",
+    name: "Daniel",
+    title: "Harmony Haven",
+  },
+  {
+    quote:
+          "Notamos que mejoró significativamente nuestra visibilidad y atracción de clientes. Estamos impresionados con el servicio personalizado y la profesionalidad mostrada en cada etapa del proceso. Recomendaríamos a Skyward sin dudarlo a cualquier empresa que busque destacarse en el mercado digital.",
+    name: "Nombre",
+    title: "Empresa",
   },
 ];

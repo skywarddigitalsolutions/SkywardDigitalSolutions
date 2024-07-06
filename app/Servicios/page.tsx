@@ -5,7 +5,7 @@ import TitleSections from "@/components/Sections/TitleSections";
 export default function Servicios() {
   return (
     <div
-      className="min-h-screen flex flex-col justify-center items-center pt-20"
+      className="min-h-screen h-full flex flex-col justify-center items-center pt-20"
       style={{
         backgroundImage: `url('fondo2.png')`,
         backgroundSize: "cover",

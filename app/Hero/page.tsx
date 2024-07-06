@@ -8,7 +8,7 @@ export default function Hero() {
 
   return (
     <div
-      className="max-h-screen relative bg-black grid justify-center items-center mt-24 lg:mt-0 grid-cols-1 lg:grid-cols-2 mb-auto"
+      className="min-h-screen relative bg-black grid justify-center items-center mt-24 lg:mt-0 grid-cols-1 lg:grid-cols-2 mb-auto"
       style={{
         backgroundImage: `url('fondo.png')`,
         backgroundSize: "cover",
@@ -32,9 +32,11 @@ export default function Hero() {
             id="button"
             className="text-center text-xs xl:text-xl lg:text-left flex justify-center xl:justify-start gap-5"
           >
+            <Link href="https://wa.me/+5491133495502?text=Hola%20,%20quiero%20más%20información" target="_blank" rel="noopener noreferrer">
             <button className=" mt-10 px-4 lg:px-12 py-4 rounded-xl bg-secundario/50 font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[white] hover:text-secundario transition-colors duration-200">
               Contactános
             </button>
+            </Link>
             <Link href="#Proyectos">
             <button className=" mt-10 px-4 lg:px-12  py-4 rounded-xl bg-white font-bold text-secundario tracking-widest uppercase transform hover:scale-105 hover:bg-[white] hover:text-secundario transition-colors duration-200">
               Ver Proyectos

@@ -1,6 +1,9 @@
 import React from "react";
 import { Card, CardHeader, CardFooter, Image } from "@nextui-org/react";
 import ButtonCards from "./ButtonCards";
+
+
+
 export default function ServicesCards() {
   return (
     <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8">
@@ -25,7 +28,7 @@ export default function ServicesCards() {
               </p>
             </div>
           </div>
-          <ButtonCards />
+          <ButtonCards serviceId={1} />
         </CardFooter>
       </Card>
 
@@ -50,7 +53,7 @@ export default function ServicesCards() {
               </p>
             </div>
           </div>
-          <ButtonCards />
+          <ButtonCards serviceId={2}  />
         </CardFooter>
       </Card>
 
@@ -77,7 +80,7 @@ export default function ServicesCards() {
               </p>
             </div>
           </div>
-          <ButtonCards />
+          <ButtonCards serviceId={3} />
         </CardFooter>
       </Card>
 
@@ -103,7 +106,7 @@ export default function ServicesCards() {
               Elegi el plan que se amolde mejor <br /> a vos
             </p>
           </div>
-          <ButtonCards />
+          <ButtonCards serviceId={4} />
         </CardFooter>
       </Card>
 
@@ -131,7 +134,7 @@ export default function ServicesCards() {
               </p>
             </div>
           </div>
-          <ButtonCards />
+          <ButtonCards serviceId={5} />
         </CardFooter>
       </Card>
     </div>

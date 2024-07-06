@@ -12,23 +12,23 @@ export const siteConfig = {
 	navMenuItems: [
 		{
 			label: "Inicio",
-			href: "#",
+			href: "/#",
 		},
 		{
 			label: "Servicios",
-			href: "#Servicios",
+			href: "/#Servicios",
 		},
 		{
 			label: "Proyectos",
-			href: "#Proyectos",
+			href: "/#Proyectos",
 		},
 		{
 			label: "Testimonios",
-			href: "#Testimonios",
+			href: "/#Testimonios",
 		},
 		{
 			label: "Contacto",
-			href: "#Contacto",
+			href: "/#Contacto",
 		},
 	],
 	links: {
