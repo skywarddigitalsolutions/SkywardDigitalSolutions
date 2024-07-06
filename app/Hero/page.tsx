@@ -1,5 +1,5 @@
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-import FotoCerebro from "../../public/manocerebro.png";
+import FotoCerebro from "../../public/manocerebro.webp";
 import Image from "next/image";
 import Link from "next/link";
 
