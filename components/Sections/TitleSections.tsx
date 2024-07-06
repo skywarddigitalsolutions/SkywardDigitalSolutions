@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Divider } from "@nextui-org/react";
 
 const TitleSections = ({ title }: any) => {

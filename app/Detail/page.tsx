@@ -1,10 +1,10 @@
 import NavBarContainer from "@/components/Navbar/NavBarContainer";
-import Footer from "../Footer/page";
 import Desarrollo from "./desarrollo";
+import Footer from "../Footer/page";
 
 export default function Detail() {
     return(
-    <div className="">
+    <div>
         <NavBarContainer />
         <Desarrollo />
         <Footer />

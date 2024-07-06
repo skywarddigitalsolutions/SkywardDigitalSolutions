@@ -1,6 +1,6 @@
 "use client";
-import ServicesCards from "@/components/Cards/ServicesCards";
 import TitleSections from "@/components/Sections/TitleSections";
+import ServicesCards from "@/components/Cards/ServicesCards";
 
 export default function Servicios() {
   return (

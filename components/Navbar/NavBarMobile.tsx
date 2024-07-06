@@ -7,13 +7,13 @@ import {
   NavbarItem,
   NavbarMenuItem,
 } from "@nextui-org/navbar";
-import { Link } from "@nextui-org/link";
 import { link as linkStyles } from "@nextui-org/theme";
-import { siteConfig } from "@/config/site";
-import NextLink from "next/link";
-import clsx from "clsx";
-import Image from "next/image";
 import Logo from "../../public/logosds.png";
+import { siteConfig } from "@/config/site";
+import { Link } from "@nextui-org/link";
+import NextLink from "next/link";
+import Image from "next/image";
+import clsx from "clsx";
 
 export const NavBarMobile = () => {
   return (

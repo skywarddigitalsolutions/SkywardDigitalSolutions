@@ -2,10 +2,9 @@ import {
   FaWhatsapp,
   FaInstagram,
   FaFacebook,
-  FaTwitter,
-  FaLinkedin,
   FaTiktok,
 } from "react-icons/fa";
+
 import Logo from "../../public/logosds.png";
 import Image from "next/image";
 

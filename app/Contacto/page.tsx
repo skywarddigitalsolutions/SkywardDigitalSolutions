@@ -1,5 +1,5 @@
-import ContactoInfo from "@/components/Contact/ContactoInfo";
 import TitleSections from "@/components/Sections/TitleSections";
+import ContactoInfo from "@/components/Contact/ContactoInfo";
 import Footer from "../Footer/page";
 
 export default function Contacto() {
