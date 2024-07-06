@@ -1,9 +1,10 @@
 import React from "react";
+
 import { FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
 import Manos from "../../public/manos.png";
 import Image from "next/image";
-import "./ContactoInfo.css";
 import Link from "next/link";
+import "./ContactoInfo.css";
 const ContactoInfo = () => {
   return (
     <div className="min-h-[70vh] flex flex-col md:flex-row justify-center items-center h-auto pb-10 container mx-auto">

@@ -8,7 +8,6 @@ import {
   Button,
   useDisclosure,
 } from "@nextui-org/react";
-import Link from "next/link";
 
 type Service = {
   id: number;
