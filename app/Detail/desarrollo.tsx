@@ -136,7 +136,7 @@ const projects = [
 export default function Desarrollo() {
   return (
     <div
-      className="min-h-screen pt-12 bg-gray-100"
+      className="min-h-screen font-bold pt-12 bg-gray-100"
       style={{
         backgroundImage: `url('fondo.png')`,
         backgroundSize: "cover",
