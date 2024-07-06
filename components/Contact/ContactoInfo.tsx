@@ -1,7 +1,7 @@
 import React from "react";
 
 import { FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
-import Manos from "../../public/manos.png";
+import Manos from "../../public/manos.webp";
 import Image from "next/image";
 import Link from "next/link";
 import "./ContactoInfo.css";
@@ -126,12 +126,9 @@ const ContactoInfo = () => {
       </div>
     
 
-      <div className="md:hidden">
-        <Image src={Manos} alt="img contacto" className="h-auto w-full" />
-      </div>
-      <div className="hidden md:block">
+      
         <Image src="/coding.svg" alt="coding" width={500} height={300} />
-      </div>
+      
     </div>
   );
 };
