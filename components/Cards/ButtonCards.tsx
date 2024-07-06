@@ -180,7 +180,7 @@ export default function ButtonCards({ serviceId }: ButtonCardsProps) {
                 </Button>
               )}
               <Button
-                className="text-white bg-primario"
+                className="text-white bg-secundario"
                 onClick={() => {
                   // Action on 'Contactarse'
                 }}

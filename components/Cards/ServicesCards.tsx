@@ -18,7 +18,7 @@ export default function ServicesCards() {
           removeWrapper
           alt="Card background"
           className="z-0 w-full h-full object-cover"
-          src="/designwebsite.png"
+          src="/designwebsite.webp"
         />
         <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
           <div className="flex flex-grow gap-2 items-center">
@@ -43,7 +43,7 @@ export default function ServicesCards() {
           removeWrapper
           alt="Card background"
           className="z-0 w-full h-full object-cover"
-          src="diseñoweb.png"
+          src="diseñoweb.webp"
         />
         <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
           <div className="flex flex-grow gap-2 items-center">
@@ -70,7 +70,7 @@ export default function ServicesCards() {
           removeWrapper
           alt="Card background"
           className="z-0 w-full h-full object-cover"
-          src="copy.png"
+          src="copy.webp"
         />
         <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
           <div className="flex flex-grow gap-2 items-center">
@@ -98,7 +98,7 @@ export default function ServicesCards() {
           removeWrapper
           alt="Card example background"
           className="z-0 w-full h-full object-cover"
-          src="mantenimiento.png"
+          src="mantenimiento.webp"
         />
         <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100 justify-between">
           <div>
@@ -124,7 +124,7 @@ export default function ServicesCards() {
           removeWrapper
           alt="Relaxing app background"
           className="z-0 w-full h-full object-cover"
-          src="design5.png"
+          src="design5.webp"
         />
         <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
           <div className="flex flex-grow gap-2 items-center">

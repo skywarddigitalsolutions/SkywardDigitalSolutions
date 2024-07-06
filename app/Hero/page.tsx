@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import Link from "next/link";
-import FotoCerebro from "../../public/manocerebro.png";
+import FotoCerebro from "../../public/manocerebro.webp";
 
 export default function Hero() {
   const words = `Llevamos tu marca al siguiente nivel`;

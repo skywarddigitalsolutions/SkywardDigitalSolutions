@@ -29,7 +29,7 @@ const BentoDemo: React.FC = () => {
     {
       title: "Aires de Pausa",
       content: "Descripción breve del Proyecto 1.",
-      image: "/screenproyecto1.png",
+      image: "/screenproyecto1.webp",
       tooltip1: "2 colores",
       tooltip2: "5 secciones",
       tooltip3: "14 días",
@@ -40,7 +40,7 @@ const BentoDemo: React.FC = () => {
     {
       title: "Harmony Haven",
       content: "Descripción breve del Proyecto 2.",
-      image: "/screenproyecto1.png",
+      image: "/screenproyecto1.webp",
       tooltip1: "",
       tooltip2: "2 colores",
       tooltip3: "2 colores",
@@ -51,7 +51,7 @@ const BentoDemo: React.FC = () => {
     {
       title: "Ascensores",
       content: "Descripción breve del Proyecto 3.",
-      image: "/screenproyecto1.png",
+      image: "/screenproyecto1.webp",
       tooltip1: "",
       tooltip2: "2 colores",
       tooltip3: "2 colores",
@@ -62,7 +62,7 @@ const BentoDemo: React.FC = () => {
     {
       title: "Ferreteria",
       content: "Descripción breve del Proyecto 4.",
-      image: "/screenproyecto1.png",
+      image: "/screenproyecto1.webp",
       tooltip1: "",
       tooltip2: "2 colores",
       tooltip3: "2 colores",
@@ -73,7 +73,7 @@ const BentoDemo: React.FC = () => {
     {
       title: "Proyecto 5",
       content: "Descripción breve del Proyecto 5.",
-      image: "/screenproyecto1.png",
+      image: "/screenproyecto1.webp",
       tooltip1: "",
       tooltip2: "2 colores",
       tooltip3: "2 colores",

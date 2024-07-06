@@ -1,6 +1,6 @@
 import React from "react";
 import { FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
-import Manos from "../../public/manos.png";
+import Manos from "../../public/manos.webp";
 import Image from "next/image";
 import "./ContactoInfo.css";
 import Link from "next/link";

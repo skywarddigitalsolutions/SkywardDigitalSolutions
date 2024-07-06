@@ -27,10 +27,10 @@ const Project: React.FC<ProjectProps> = ({ title, description, projectUrl, benef
       backgroundPosition: "center",
     }}>
       {/* Título y descripción */}
-      <div className="md:w-1/2 p-4 flex flex-col justify-evenly">
+      <div className="md:w-1/2 p-4 flex flex-col justify-evenly font-bold">
             <div className=''>
                 <h2 className='text-5xl pb-10 lg:pb-5'> {title} </h2>
-                <p className='text-xl '> {description} </p>
+                <p className='text-xl'> {description} </p>
             </div>
             <div className=''> 
                 <h5 className="text-xl py-5">Beneficios:</h5>
