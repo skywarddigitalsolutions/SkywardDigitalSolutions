@@ -20,7 +20,7 @@ const ContactoInfo = () => {
             Estoy dispuesto
           </button>
         </Link>
-        <div className="flex flex-row gap-10 mt-12">
+        <div className="flex flex-row gap-10 mt-12 max-w-screen">
           <Link href="https://www.instagram.com/skywarddigitalsolutions" target="_blank" rel="noopener noreferrer">
           <div className="tooltip-container">
             <div className="tooltip">
@@ -122,11 +122,12 @@ const ContactoInfo = () => {
           </div>
           </Link>
         </div>
+        
       </div>
     
 
       
-        <Image src="/coding.svg" alt="coding" width={500} height={300} />
+        <Image src="/coding.svg" alt="coding" className="pt-12" width={500} height={300} />
       
     </div>
   );
