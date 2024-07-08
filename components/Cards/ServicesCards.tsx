@@ -20,6 +20,7 @@ export default function ServicesCards() {
           alt="Card background"
           className="z-0 w-full h-full object-cover"
           src="/designwebsite.webp"
+          loading="lazy"
         />
         <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
           <div className="flex flex-grow gap-2 items-center">
@@ -45,6 +46,7 @@ export default function ServicesCards() {
           alt="Card background"
           className="z-0 w-full h-full object-cover"
           src="diseñoweb.webp"
+          loading="lazy"
         />
         <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
           <div className="flex flex-grow gap-2 items-center">
@@ -72,6 +74,7 @@ export default function ServicesCards() {
           alt="Card background"
           className="z-0 w-full h-full object-cover"
           src="copy.webp"
+          loading="lazy"
         />
         <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
           <div className="flex flex-grow gap-2 items-center">
@@ -100,6 +103,7 @@ export default function ServicesCards() {
           alt="Card example background"
           className="z-0 w-full h-full object-cover"
           src="mantenimiento.webp"
+          loading="lazy"
         />
         <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100 justify-between">
           <div>
@@ -126,6 +130,7 @@ export default function ServicesCards() {
           alt="Relaxing app background"
           className="z-0 w-full h-full object-cover"
           src="design5.webp"
+          loading="lazy"
         />
         <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
           <div className="flex flex-grow gap-2 items-center">

@@ -43,11 +43,11 @@ const modalservices: Service[] = [
     title: "Diseño web personalizable",
     content: (
       <>
-        <h4 className="text-white text-xs">
+        <h4 className="text-white text-xs lg:text-md">
           Ofrecemos un servicio integral donde diseñamos tu sitio web desde cero, teniendo en cuenta tus necesidades y objetivos específicos. Te proporcionamos opciones personalizadas y creativas para asegurar que tu sitio web refleje tu marca de manera única.
         </h4>
-        <h5 className="text-white text-xs">Beneficios:</h5>
-        <div className="flex flex-col gap-5 text-xs">
+        <h5 className="text-white text-xs lg:text-md">Beneficios:</h5>
+        <div className="flex flex-col gap-5 text-xs lg:text-md">
           <div className="flex gap-5 justify-start items-start">
             <MdOutlineDesignServices className="h-12 w-12 text-white" />
             <p> <span className="text-white">Personalización total:</span> Creamos un diseño web que se adapta perfectamente a tu marca, transmitiendo tu identidad visual de manera coherente y profesional.</p>
@@ -75,11 +75,11 @@ const modalservices: Service[] = [
     title: "Copywriting",
     content: (
       <>
-        <h4 className="text-white text-xs">
+        <h4 className="text-white text-xs lg:text-md">
           Ofrecemos la opción de redactar los textos de tu sitio web con el objetivo de mejorar el SEO y captar la atención de tus visitantes. Creamos contenido persuasivo y optimizado que comunica claramente tus mensajes clave y atrae a tu público objetivo.
         </h4>
-        <h5 className="text-white text-xs">Beneficios:</h5>
-        <div className="flex flex-col gap-5 text-xs">
+        <h5 className="text-white text-xs lg:text-md">Beneficios:</h5>
+        <div className="flex flex-col gap-5 text-xs lg:text-md">
           <div className="flex gap-5 justify-start items-start">
             <TbSeo className="h-12 w-12 text-white" />
             <p> <span className="text-white">Optimización SEO: </span> Escribimos textos que ayudan a mejorar el posicionamiento de tu sitio web en los motores de búsqueda, utilizando palabras clave relevantes y estructuras que cumplen con las mejores prácticas SEO.
@@ -112,11 +112,11 @@ const modalservices: Service[] = [
     title: "Mantenimiento",
     content: (
       <>
-        <h4 className="text-white text-xs">
+        <h4 className="text-white text-xs lg:text-md">
           Ofrecemos un servicio integral para mantener tu sitio web actualizado, seguro y funcionando sin problemas. Esto incluye la gestión regular de contenido, actualizaciones de software, copias de seguridad periódicas y soporte técnico continuo para asegurarte de que tu sitio web esté siempre en óptimas condiciones.
         </h4>
-        <h5 className="text-white text-xs">Beneficios:</h5>
-        <div className="flex flex-col gap-5 text-xs">
+        <h5 className="text-white text-xs lg:text-md">Beneficios:</h5>
+        <div className="flex flex-col gap-5 text-xs lg:text-md">
           <div className="flex gap-5 justify-start items-start text-xs">
             <GrUpdate className="h-12 w-12 text-white" />
             <p> <span className="text-white"> Actualizaciones y Parches de Seguridad: </span> Mantenemos tu sitio web al día con las últimas actualizaciones de software y parches de seguridad para protegerlo contra amenazas cibernéticas.
@@ -148,11 +148,11 @@ const modalservices: Service[] = [
     title: "SEO",
     content: (
       <>
-        <h4 className="text-xs text-white">
+        <h4 className="text-xs text-white lg:text-md">
           Nuestro servicio de SEO está diseñado para mejorar la visibilidad de tu sitio web en los motores de búsqueda como Google. Implementamos estrategias avanzadas que optimizan tu contenido para palabras clave relevantes, mejoran la estructura del sitio y aumentan la autoridad de tu dominio, todo con el objetivo de atraer más tráfico orgánico y potenciales clientes.
         </h4>
-        <h5 className="text-xs text-white">Beneficios:</h5>
-        <div className="flex flex-col gap-5 text-xs">
+        <h5 className="text-xs text-white lg:text-md ">Beneficios:</h5>
+        <div className="flex flex-col gap-5 text-xs lg:text-md">
           <div className="flex gap-5 justify-start items-start text-xs">
             <VscSymbolStructure  className="h-12 w-12 text-white" />
             <p> <span className="text-white">Optimización On-Page:</span> Mejoramos la estructura de tu sitio web, optimizamos meta etiquetas, URLs y contenido para que estén alineados con las mejores prácticas de SEO. </p>
