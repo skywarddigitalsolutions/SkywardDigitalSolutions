@@ -59,7 +59,7 @@ export const NavBarMobile = () => {
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem
               key={`${item}-${index}`}
-              className="text-center text-[6rem] "
+              className="text-center text-[5rem] "
             >
               <Link
                 color={"foreground"}

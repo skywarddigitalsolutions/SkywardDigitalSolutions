@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
-  const words = `Llevamos tu marca al siguiente nivel`;
+  const words = `Llevá tu marca al siguiente nivel`;
 
   return (
     <div

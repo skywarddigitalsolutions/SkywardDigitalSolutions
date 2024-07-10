@@ -26,7 +26,7 @@ export default function ServicesCards() {
           <div className="flex flex-grow gap-2 items-center">
             <div className="flex flex-col">
               <p className="text-tiny text-white/60">
-                Elegi el plan que se amolde mejor a vos
+                Conocé los tipos de sitios web
               </p>
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function ServicesCards() {
           <div className="flex flex-grow gap-2 items-center">
             <div className="flex flex-col">
               <p className="text-tiny text-white/60">
-                Elegi el plan que se amolde mejor a vos
+                Definí el estilo de tu web 
               </p>
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function ServicesCards() {
           <div className="flex flex-grow gap-2 items-center">
             <div className="flex flex-col">
               <p className="text-tiny text-white/60">
-                Elegi el plan que se amolde mejor a vos
+                Ahorrá tiempo pensando los textos
               </p>
             </div>
           </div>
@@ -108,7 +108,7 @@ export default function ServicesCards() {
         <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100 justify-between">
           <div>
             <p className="text-white/60 text-tiny">
-              Elegi el plan que se amolde mejor <br /> a vos
+              Sentite actualizado cada mes
             </p>
           </div>
           <ButtonCards serviceId={4} />
@@ -136,7 +136,7 @@ export default function ServicesCards() {
           <div className="flex flex-grow gap-2 items-center">
             <div className="flex flex-col">
               <p className="text-tiny text-white/60">
-                Elegi el plan que se amolde mejor a vos
+                Posicionate mejor que otros en las búsquedas
               </p>
             </div>
           </div>

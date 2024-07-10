@@ -29,7 +29,7 @@ const BentoDemo: React.FC = () => {
   const proyectos: Proyecto[] = [
     {
       title: "Aires de Pausa",
-      content: "Descripción breve del Proyecto 1.",
+      content: "Es un sitio web sencillo y minimalista pero que cumple la función de mostrar los servicios que ofrece",
       image: "/screenproyecto1.webp",
       tooltip1: "2 colores",
       tooltip2: "5 secciones",
@@ -119,8 +119,8 @@ const BentoDemo: React.FC = () => {
   return (
     <section className="pb-12">
       <div className="px-4">
-        <p className="text-lg text-center text-gray-500 mb-8">
-          Estos son nuestros proyectos. Hacé click en el proyecto que queres ver
+        <p className="text-lg xl:text-xl text-center text-gray-500 mb-8">
+          Estos son nuestros proyectos. Hacé click en el proyecto que quieras ver y conocé las características de cada uno
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           {proyectos.map((proyecto, index) => (

@@ -8,39 +8,39 @@ const Faq = () => {
     {
       title: "¿Cuánto sale crear mi página web?",
       content:
-        "tenemos atención personalizada donde te ofrecemos distintos planes para la creación de tu página",
+        "Tenemos distintos precios dependiendo el diseño y los tipos servicios que quieras.Tenemos atención personalizada donde te vamos a contar más sobre los servicios y vamos a asesorarte para elegir el plan que se amolde a vos",
     },
     {
       title: "¿Ofrecen mantenimiento?",
-      content: "Si, podes agregar el mantenimiento a tu plan",
+      content: "Si, podes agregar el servicio de mantenimiento a tu plan.",
     },
     {
       title: "¿Qué información necesitarán para comenzar el proyecto?",
       content:
-        "Para empezar a trabajar vamos a realizar una reunión virtual donde vamos a preguntarte sobre tu marca. Los textos podes armarlos vos o sino lo hacemos nosotros",
+        "Para empezar a trabajar vamos a realizar una reunión virtual donde vamos a hacerte preguntas sobre tu marca. También ofrecemos copywriting para que no tengas que pensar los textos",
     },
     {
       title: "¿Cómo puedo realizar pagos y cuál es su política de pagos?",
       content:
-        "En la reunión virtual te contamos sobre el pago, es el 50% cuando te entregamos el diseño y el restante cuando está terminada",
+        "En la reunión virtual se habla sobre el pago, recibimos el 50% cuando se entrega el diseño y el restante cuando se entrega el sitio web terminado",
     },
     {
       title: "¿Incluye dominio personalizado?",
-      content: "No, el valor del dominio es a parte",
+      content: "No, el valor del dominio es a parte. Podemos ayudarte a que compres el dominio",
     },
     {
       title: "¿Realizan el diseño de la página o únicamente el código?",
-      content: "Si, ofrecemos diseño web",
+      content: "Ofrecemos diseño web y el desarrollo del código",
     },
     {
-      title: "¿Cuanto tarda mi página?",
+      title: "¿Cuanto va a tardar mi página?",
       content:
-        "El tiempo varia dependiendo el plan que elijas, por lo general son 15 días",
+        "El tiempo varia dependiendo el plan y los servicios que elijas, por lo general son de 15 a 30 días",
     },
     {
       title: "¿Qué pasa si no me gusta como queda?",
       content:
-        "Tenemos varias reuniones donde, inicialmente, te mostramos el resultado de la página antes de empezar, y vamos mostrando los avances. Igualmente incluye 5 cambios.",
+        "Inicialmente te presentamos el diseño del sitio para que lo confirmes, luego empezamos con el código y te vamos mostrando los avances. También tenes cambios disponibles dependiendo de tu plan ",
     },
     {
       title: "¿Como se manejan los cambios y revisiones durante el proceso?",
@@ -54,16 +54,16 @@ const Faq = () => {
     },
     {
       title: "¿Qué contenido debo incluir?",
-      content: "Nosotros te asesoramos para mejorar tu sitio web",
+      content: "Lo que vos quieras mostrarle a la gente. Nosotros te asesoramos para mejorar tu sitio web",
     },
     {
       title: "¿Cuantas secciones puede tener mi sitio web?",
       content:
-        "Dependiendo el plan que elijas, tenemos disponible las secciones que quieras",
+        "La cantidad que vos quieras.",
     },
     {
       title: "¿Ofrecen el servicio de SEO?",
-      content: "Si, te ayudamos con el SEO de tu página",
+      content: "Si, ofrecemos el servicio de SEO para tu sitio web",
     },
   ];
 

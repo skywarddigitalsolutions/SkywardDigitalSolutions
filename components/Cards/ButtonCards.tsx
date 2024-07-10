@@ -8,9 +8,8 @@ import {
   Button,
   useDisclosure,
 } from "@nextui-org/react";
-import Link from "next/link";
 import { MdOutlineDesignServices, MdOutlineWeb, MdOutlineWebStories } from "react-icons/md";
-import { FaBusinessTime, FaEye, FaSearchengin } from "react-icons/fa";
+import { FaEye, FaSearchengin } from "react-icons/fa";
 import { PiMouseScrollLight } from "react-icons/pi";
 import { TbSeo } from "react-icons/tb";
 import { GiClick } from "react-icons/gi";

@@ -63,16 +63,17 @@ const Project: React.FC<ProjectProps> = ({
       </div>
 
       {/* Mockup del proyecto */}
-      <div className="relative mx-auto border-primario dark:border-primario bg-primario border-[14px] rounded-[2.5rem] w-[300px] h-[600px] shadow-xl">
+      <div className="relative mx-auto border-primario dark:border-primario bg-primario border-[14px] rounded-[2.5rem] w-[310px] h-[600px] shadow-xl">
         <div className="w-[128px] h-[18px] bg-primario top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
         <div className="h-[40px] w-[4px] bg-primario absolute -left-[14px] top-[100px] rounded-l-lg"></div>
         <div className="h-[40px] w-[4px] bg-primario absolute -left-[14px] top-[150px] rounded-l-lg"></div>
         <div className="h-[60px] w-[4px] bg-primario absolute -right-[14px] top-[110px] rounded-r-lg"></div>
-        <div className="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-primario">
+        <div className="rounded-[2rem] overflow-hidden w-[282px] h-[572px] bg-white dark:bg-primario">
           <iframe
             src={projectUrl}
             className="w-full h-full border-none"
             title="Project Preview"
+            
           />
         </div>
       </div>
@@ -86,7 +87,7 @@ const projects = [
     title: "SPA",
     description:
       "Es un tipo de sitio web que carga una sola página inicialmente y luego actualiza el contenido de forma dinámica según la interacción del usuario, sin necesidad de cargar páginas adicionales desde el servidor.",
-    url: "https://example1.com",
+    url: "https://airesdepausa.com",
     beneficio1:
       "Experiencia más rápida y fluida al eliminar tiempo de carga entre páginas",
     beneficio2:
