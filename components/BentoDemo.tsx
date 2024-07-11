@@ -29,7 +29,8 @@ const BentoDemo: React.FC = () => {
   const proyectos: Proyecto[] = [
     {
       title: "Aires de Pausa",
-      content: "Es un sitio web sencillo y minimalista pero que cumple la función de mostrar los servicios que ofrece",
+      content:
+        "Es un sitio web sencillo y minimalista pero que cumple la función de mostrar los servicios que ofrece",
       image: "/screenproyecto1.webp",
       tooltip1: "2 colores",
       tooltip2: "5 secciones",
@@ -120,7 +121,8 @@ const BentoDemo: React.FC = () => {
     <section className="pb-12">
       <div className="px-4">
         <p className="text-lg xl:text-xl text-center text-gray-500 mb-8">
-          Estos son nuestros proyectos. Hacé click en el proyecto que quieras ver y conocé las características de cada uno
+          Estos son nuestros proyectos. Hacé click en el proyecto que quieras
+          ver y conocé las características de cada uno
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           {proyectos.map((proyecto, index) => (
@@ -134,7 +136,7 @@ const BentoDemo: React.FC = () => {
           ))}
         </div>
         {/* TODO: ESTAMOS REPITIENDO CODIGO, SE NECESITA REFACTORIZAR */}
-        {selectedProject ? 
+        {selectedProject ? (
           <div className="  h-auto w-full py-5 rounded-xl flex flex-col md:flex-row justify-center md:justify-around items-center mt-12 xl:mt-20">
             <img
               src={selectedProject.image}
@@ -229,7 +231,7 @@ const BentoDemo: React.FC = () => {
               </Link>
             </div>
           </div>
-         : 
+        ) : (
           <div className="  h-auto w-full py-5 rounded-xl flex flex-col md:flex-row justify-center md:justify-around items-center mt-12 xl:mt-20">
             <img
               src={proyectos[0].image}
@@ -241,7 +243,7 @@ const BentoDemo: React.FC = () => {
                 {" "}
                 {proyectos[0].title}
               </h4>
-              <p className="text-center text-xs lg:text-lg mb-5 font-bold">
+              <p className="text-center text-xs lg:text-lg mb-5 font-bold w-full md:w-80">
                 {" "}
                 {proyectos[0].content}
               </p>
@@ -286,7 +288,7 @@ const BentoDemo: React.FC = () => {
               </Link>
             </div>
           </div>
-        }
+        )}
       </div>
     </section>
   );
