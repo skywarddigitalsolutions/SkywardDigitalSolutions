@@ -4,7 +4,7 @@ export default function Proyectos() {
   return (
     <>
       <div
-        className="min-h-screen h-full bg-black pt-[10] mt-20"
+        className="min-h-screen h-full bg-black pt-20"
         style={{
           backgroundImage: `url('fondo3.png')`,
           backgroundSize: "cover",

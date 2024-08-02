@@ -12,7 +12,7 @@ export const siteConfig = {
 	navMenuItems: [
 		{
 			label: "Inicio",
-			href: "/#",
+			href: "/#Inicio",
 		},
 		{
 			label: "Servicios",

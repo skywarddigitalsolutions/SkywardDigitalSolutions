@@ -5,7 +5,7 @@ import Footer from "../Footer/page";
 export default function Contacto() {
   return (
     <div
-      className="mt-20 xl:pb-10"
+      className="xl:pb-10 pt-20"
       style={{
         backgroundImage: `url('fondo5.png')`,
         backgroundSize: "cover",

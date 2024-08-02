@@ -14,6 +14,7 @@ export default function Hero() {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
+      id="Inicio"
     >
       <div className="grid justify-center z-10 sm:mt-20 lg:mt-10 mx-5">
         <h1 className="text-white text-center lg:text-left mt-10 text-5xl lg:text-8xl font-extrabold mb-1">

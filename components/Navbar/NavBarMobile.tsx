@@ -8,16 +8,19 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/navbar";
 import { link as linkStyles } from "@nextui-org/theme";
-import Logo from "../../public/logosds.png";
+import Logo from "../../public/logo-sds.png";
 import { siteConfig } from "@/config/site";
 import { Link } from "@nextui-org/link";
 import NextLink from "next/link";
 import Image from "next/image";
 import clsx from "clsx";
+import { useReducer } from "react";
 
 export const NavBarMobile = () => {
+  const [isMenuOpen, setIsMenuOpen] = useReducer((current) => !current, false);
+
   return (
-    <NextUINavbar maxWidth="xl" className="fixed w-full z-50 top-0">
+    <NextUINavbar maxWidth="xl" className="fixed w-full z-50 top-0" isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="#">
@@ -51,7 +54,9 @@ export const NavBarMobile = () => {
       </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-        <NavbarMenuToggle className="bg-main" />
+        <NavbarMenuToggle 
+          className="bg-main" 
+        />
       </NavbarContent>
 
       <NavbarMenu>
@@ -59,13 +64,14 @@ export const NavBarMobile = () => {
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem
               key={`${item}-${index}`}
-              className="text-center text-[5rem] "
+              className="text-center text-[5rem]"
             >
               <Link
                 color={"foreground"}
                 href={item.href}
                 size="lg"
                 className="text-2xl font-bold uppercase"
+                onPress={() => setIsMenuOpen()}
               >
                 {item.label}
               </Link>
