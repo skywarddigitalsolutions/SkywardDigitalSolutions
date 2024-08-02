@@ -19,7 +19,7 @@ const testimonials = [
   {
     quote:
       "Estamos muy satisfechos con el trabajo realizado por ustedes. Nos ayudaron a transformar nuestra idea en un sitio web profesional y atractivo que ha mejorado significativamente nuestra presencia online. Recomendamos su servicio sin dudarlo",
-      name: "Nombre",
+      name: "Christian",
       title: "Ascensores",
   },
   {
@@ -30,9 +30,13 @@ const testimonials = [
   },
   {
     quote: "Gracias a ustedes, nuestro sitio web ahora no solo se ve increíble, sino que también está optimizado para mejorar nuestro posicionamiento en buscadores. Su enfoque meticuloso en el diseño y el SEO ha sido fundamental para nuestro éxito online",
-    name: "Nombre",
+    name: "Maximiliano",
     title: "Ferretería",
   },
+
+];
+
+/*
   {
     quote:
       "Estamos encantados con el diseño que crearon para nuestro centro integral de estética. Capturaron perfectamente la esencia de nuestro negocio, creando un sitio web visualmente atractivo y funcional. Desde que lanzamos el nuevo sitio, hemos experimentado un aumento significativo en el número de clientes que nos contactan. ¡Gracias por ayudarnos a crecer y atraer más clientes!",
@@ -45,4 +49,4 @@ const testimonials = [
     name: "Nombre",
     title: "Empresa",
   },
-];
+*/

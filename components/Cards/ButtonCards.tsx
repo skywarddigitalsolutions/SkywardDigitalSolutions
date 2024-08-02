@@ -21,6 +21,7 @@ import { GrDocumentPerformance } from "react-icons/gr";
 import { IoIosAddCircleOutline } from "react-icons/io";
 import { IoAnalytics } from "react-icons/io5";
 import { VscSymbolStructure } from "react-icons/vsc";
+import { CgWebsite } from "react-icons/cg";
 
 
 type Service = {
@@ -34,8 +35,30 @@ const modalservices: Service[] = [
   {
     id: 1,
     title: "Desarrollo web personalizable",
-    content: "",
-    button: "Ver opciones",
+    content: (
+      <>
+         <h4 className="text-white text-xs lg:text-md">
+         Nos especializamos en crear sitios web personalizados que reflejan la identidad y visión de tu marca, asegurando una experiencia de usuario excepcional y un diseño atractivo y funcional.</h4>
+        <h5 className="text-white text-xs lg:text-md">Ofrecemos 3 tipos de sitios web: </h5>
+        <div className="flex flex-col gap-5 text-xs lg:text-md">
+          <div className="flex gap-5 justify-start items-start">
+            <CgWebsite className="h-12 w-12 text-white" />
+            <p> <span className="text-white">SPA(single page): </span>sitios web de una sola página modernos y dinámicos que ofrecen una experiencia de usuario rápida y fluida. </p>
+          </div>
+          <div className="flex gap-5 justify-start items-start">
+            <CgWebsite className="h-12 w-12 text-white" />
+            <p> <span className="text-white"> Hasta 5 secciones: </span>sitios web completos con hasta 5 secciones, ideales para presentar tu negocio o proyecto de manera clara y estructurada. Por ejemplo: Inicio, Servicios, Proyectos, Contacto, Nosotros</p>
+          </div>
+          <div className="flex gap-5 justify-start items-start">
+            <CgWebsite className="h-12 w-12 text-white" />
+            <p> <span className="text-white">Sin límites: </span> sitios web personalizados sin límites de secciones. Puedes elegir la cantidad y tipo de secciones que desees, adaptándonos completamente a tus requerimientos específicos.</p>
+          </div>
+
+  
+        </div>
+      </>
+    ),
+    button: "Ver más",
   },
   {
     id: 2,
@@ -209,11 +232,7 @@ export default function ButtonCards({ serviceId }: ButtonCardsProps) {
         <Button
           key={service.id}
           onClick={() => {
-            if (service.id === 1) {
-              window.location.href = "/Detail";
-            } else {
-              handleOpen(service);
-            }
+              handleOpen(service);          
           }}
           size="sm"
           className="bg-secundario/50"
@@ -245,11 +264,10 @@ export default function ButtonCards({ serviceId }: ButtonCardsProps) {
               {selectedService.content}
             </ModalBody>
             <ModalFooter>
-              {serviceId !== 1 && (
                 <Button variant="light" onClick={handleClose}>
                   Cerrar
                 </Button>
-              )}
+              
               <Button
                 className="text-white bg-secundario"
                 onClick={() => {
@@ -265,3 +283,47 @@ export default function ButtonCards({ serviceId }: ButtonCardsProps) {
     </>
   );
 }
+
+
+
+
+/*
+ <Button
+          key={service.id}
+          onClick={() => {
+            if (service.id === 1) {
+              window.location.href = "/Detail";
+            } else {
+              handleOpen(service);
+            }
+          }}
+          size="sm"
+          className="bg-secundario/50"
+        >
+          {service.button}
+        </Button>
+
+
+ <ModalContent>
+            <ModalHeader className="flex flex-col gap-1 text-white">
+              {selectedService.title}
+            </ModalHeader>
+            <ModalBody>
+              {selectedService.content}
+            </ModalBody>
+            <ModalFooter>
+              {serviceId !== 1 && (
+                <Button variant="light" onClick={handleClose}>
+                  Cerrar
+                </Button>
+              )}
+              <Button
+                className="text-white bg-secundario"
+                onClick={() => {
+                  // Action on 'Contactarse'
+                }}
+              >
+                Contactarse
+              </Button>
+            </ModalFooter>
+          </ModalContent>*/ 

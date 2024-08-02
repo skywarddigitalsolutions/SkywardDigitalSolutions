@@ -104,7 +104,7 @@ const projects = [
     title: "5 Secciones",
     description:
       "Es un sitio web organizado en secciones distintas como la página de inicio, servicios ofrecidos, información sobre la empresa, testimonios de clientes y formas de contacto.",
-    url: "https://www.youtube.com/",
+    url: "https://www.youtube.com",
     beneficio1:
       "Facilita la navegación para los visitantes al presentar la información de manera estructurada y accesible.",
     beneficio2:

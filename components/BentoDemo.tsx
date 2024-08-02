@@ -46,9 +46,20 @@ const BentoDemo: React.FC = () => {
       tooltip1: "4 colores",
       tooltip2: "4 secciones",
       tooltip3: "15 días",
-      tooltip4: "Diseño del cliente",
+      tooltip4: "100% personalizado",
       tooltip5: "SPA",
       link: "www.cerrajeriaporteña.com.ar",
+    },
+    {
+      title: "Ascensores Tecnics",
+      content: "Moderno y Formal",
+      image: "/screenproyecto3.webp",
+      tooltip1: "3 colores",
+      tooltip2: "5 secciones",
+      tooltip3: "7 días",
+      tooltip4: "Diseño traido por el cliente",
+      tooltip5: "Hasta 5 secciones",
+      link: "https://ascensorestecnics.netlify.app/",
     },
 
   ];

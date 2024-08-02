@@ -7,8 +7,8 @@ import "../styles/globals.css";
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Skyward Digital Solutions",
-  description: "Creacion de paginas web ",
+  title: "SDS",
+  description: "Elevá tu visión",
   icons: {
     icon: '/logonegro.png',
     shortcut: '/logonegro.png',
