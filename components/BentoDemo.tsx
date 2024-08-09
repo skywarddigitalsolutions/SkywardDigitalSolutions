@@ -40,17 +40,6 @@ const BentoDemo: React.FC = () => {
       link: "https://www.airesdepausa.com",
     },
     {
-      title: "Cerrajería Porteña",
-      content: "Minimalista y formal",
-      image: "/screenproyecto2.webp",
-      tooltip1: "4 colores",
-      tooltip2: "4 secciones",
-      tooltip3: "15 días",
-      tooltip4: "100% personalizado",
-      tooltip5: "SPA",
-      link: "www.cerrajeriaporteña.com.ar",
-    },
-    {
       title: "Ascensores Tecnics",
       content: "Moderno y Formal",
       image: "/screenproyecto3.webp",
@@ -63,6 +52,8 @@ const BentoDemo: React.FC = () => {
     },
 
   ];
+
+  
 
   useEffect(() => {
     const handleResize = () => {

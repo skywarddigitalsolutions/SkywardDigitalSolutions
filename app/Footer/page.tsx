@@ -61,7 +61,7 @@ export default function Footer() {
 
         {/* Información de Contacto */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
-          <h3 className="text-2xl font-bold mb-6">Síguenos</h3>
+          <h3 className="text-2xl font-bold mb-6">¡Seguinos para más!</h3>
           <div className="flex space-x-8">
             <a
               href="https://wa.me/+5491133495502?text=Hola%20,%20quiero%20más%20información" 

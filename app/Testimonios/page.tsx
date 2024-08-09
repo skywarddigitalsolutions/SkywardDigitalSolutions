@@ -4,7 +4,7 @@ import Faq from "../Faq/page";
 export default function Testimonios() {
   return (
     <div
-      className="min-h-screen mb-48 pt-20"
+      className="min-h-screen mb-5 pt-20"
       style={{
         backgroundImage: `url('fondo2.png')`,
         backgroundSize: "cover",

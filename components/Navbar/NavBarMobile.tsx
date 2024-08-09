@@ -60,17 +60,17 @@ export const NavBarMobile = () => {
       </NavbarContent>
 
       <NavbarMenu>
-        <div className="mx-4 mt-2 flex flex-col gap-2">
+        <div className="mx-4 mt-2 flex flex-col gap-1">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem
               key={`${item}-${index}`}
-              className="text-center text-[5rem]"
+              className="text-center text-[3rem] m-1"
             >
               <Link
                 color={"foreground"}
                 href={item.href}
                 size="lg"
-                className="text-2xl font-bold uppercase"
+                className="text-xl font-bold uppercase"
                 onPress={() => setIsMenuOpen()}
               >
                 {item.label}
