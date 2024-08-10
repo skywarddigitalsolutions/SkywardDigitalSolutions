@@ -8,7 +8,7 @@ export default function Hero() {
 
   return (
     <div
-      className="min-h-screen relative bg-black grid justify-center items-center mt-24 lg:mt-0 grid-cols-1 lg:grid-cols-2 mb-auto"
+      className="min-h-screen relative bg-black grid justify-center items-center mt-20 lg:mt-0 grid-cols-1 lg:grid-cols-2 mb-auto"
       style={{
         backgroundImage: `url('fondo.png')`,
         backgroundSize: "cover",
@@ -49,8 +49,8 @@ export default function Hero() {
           </Link>
         </div>
       </div>
-      <div className=" mt-12 lg:mt-0 flex justify-center items-center">
-        <Image src={FotoCerebro} alt="imagen cerebro" />
+      <div className="lg:mt-0 flex justify-center items-center">
+        <Image src={FotoCerebro} alt="imagen cerebro" className="animate-float" />
       </div>
     </div>
   );

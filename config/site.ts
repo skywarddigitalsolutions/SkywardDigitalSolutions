@@ -27,6 +27,10 @@ export const siteConfig = {
 			href: "/#Testimonios",
 		},
 		{
+			label: "Preguntas frecuentes",
+			href: "/#Faq",
+		},
+		{
 			label: "Contacto",
 			href: "/#Contacto",
 		},

@@ -33,7 +33,7 @@ export const Contact = () => {
 
   const onChangeHandler = (value: string) => {
     setMessage(value);
-    setError(""); // Limpiamos el error cuando se cambia el mensaje
+    setError("");
   };
 
   const handleSubmit = () => {

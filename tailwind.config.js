@@ -21,12 +21,17 @@ module.exports = withMT({
       },
       animation: {
         scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        float: 'float 3s ease-in-out infinite',
       },
       keyframes: {
         scroll: {
           to: {
             transform: "translate(calc(-50% - 0.5rem))",
           },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
         },
       },
     },

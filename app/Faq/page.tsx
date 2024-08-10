@@ -2,6 +2,7 @@
 import React from "react";
 
 import { Accordion, AccordionItem } from "@nextui-org/react";
+import TitleSections from "@/components/Sections/TitleSections";
 
 const Faq = () => {
   const faqItems = [
@@ -68,11 +69,8 @@ const Faq = () => {
   ];
 
   return (
-    <>
-      <h1 className="text-zinc-200 mb-24 text-4xl lg:text-7xl font-extrabold text-center">
-        {" "}
-        Preguntas Frecuentes{" "}
-      </h1>
+    <div className="pt-20" id="Faq">
+      <TitleSections title={"Preguntas frecuentes"}/>
       <div className="mx-auto w-full lg:w-1/2">
         <Accordion variant="light" className="w-full">
           {faqItems.map((item, index) => (
@@ -86,7 +84,7 @@ const Faq = () => {
           ))}
         </Accordion>
       </div>
-    </>
+    </div>
   );
 };
 

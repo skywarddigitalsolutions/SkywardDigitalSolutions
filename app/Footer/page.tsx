@@ -21,7 +21,7 @@ export default function Footer() {
             height={150}
             className="my-10"
           />
-          <p className="text-gray-300 mx- lg:max-w-sm mx-1">
+          <p className="text-gray-300 lg:max-w-sm mx-3">
             SkyWard Digital Solutions es tu socio confiable para llevar tu
             negocio al siguiente nivel. Contáctanos para más información.
           </p>
@@ -49,6 +49,11 @@ export default function Footer() {
             <li>
               <a href="/#Testimonios" className="hover:text-gray-300">
                 Testimonios
+              </a>
+            </li>
+            <li>
+              <a href="/#Faq" className="hover:text-gray-300">
+                Preguntas frecuentes
               </a>
             </li>
             <li>

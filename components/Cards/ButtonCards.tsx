@@ -10,7 +10,6 @@ import {
 } from "@nextui-org/react";
 import {
   MdOutlineDesignServices,
-  MdOutlineWeb,
   MdOutlineWebStories,
 } from "react-icons/md";
 import { FaEye, FaSearchengin } from "react-icons/fa";
@@ -26,6 +25,7 @@ import { IoIosAddCircleOutline } from "react-icons/io";
 import { IoAnalytics } from "react-icons/io5";
 import { VscSymbolStructure } from "react-icons/vsc";
 import { CgWebsite } from "react-icons/cg";
+import CtaButton from "./CtaButton";
 
 type Service = {
   id: number;
@@ -355,6 +355,10 @@ export default function ButtonCards({ serviceId }: ButtonCardsProps) {
     setSelectedService(null);
     onClose();
   };
+  
+  const phoneNumber = "+5491133495502"
+  const whatsappMessage = "Hola, queremos más información"
+  const title = "Solicitar presupuesto"
 
   return (
     <>
@@ -383,7 +387,7 @@ export default function ButtonCards({ serviceId }: ButtonCardsProps) {
             base: "border-black bg-black text-gray-500",
             header: "border-b-[1px] border-gray-500",
             footer: "border-t-[1px] border-gray-500",
-            closeButton: "hover:bg-white/5 active:bg-white/10",
+            closeButton: "hover:bg-white/5 active:bg-white/10 text-2xl",
           }}
         >
           <ModalContent>
@@ -391,19 +395,8 @@ export default function ButtonCards({ serviceId }: ButtonCardsProps) {
               {selectedService.title}
             </ModalHeader>
             <ModalBody>{selectedService.content}</ModalBody>
-            <ModalFooter>
-              <Button variant="light" onClick={handleClose}>
-                Cerrar
-              </Button>
-
-              <Button
-                className="text-white bg-secundario"
-                onClick={() => {
-                  // Action on 'Contactarse'
-                }}
-              >
-                Contactarse
-              </Button>
+            <ModalFooter className="justify-start">
+              <CtaButton phoneNumber={phoneNumber} whatsappMessage={whatsappMessage} title={title}  />
             </ModalFooter>
           </ModalContent>
         </Modal>
@@ -412,43 +405,3 @@ export default function ButtonCards({ serviceId }: ButtonCardsProps) {
   );
 }
 
-/*
- <Button
-          key={service.id}
-          onClick={() => {
-            if (service.id === 1) {
-              window.location.href = "/Detail";
-            } else {
-              handleOpen(service);
-            }
-          }}
-          size="sm"
-          className="bg-secundario/50"
-        >
-          {service.button}
-        </Button>
-
-
- <ModalContent>
-            <ModalHeader className="flex flex-col gap-1 text-white">
-              {selectedService.title}
-            </ModalHeader>
-            <ModalBody>
-              {selectedService.content}
-            </ModalBody>
-            <ModalFooter>
-              {serviceId !== 1 && (
-                <Button variant="light" onClick={handleClose}>
-                  Cerrar
-                </Button>
-              )}
-              <Button
-                className="text-white bg-secundario"
-                onClick={() => {
-                  // Action on 'Contactarse'
-                }}
-              >
-                Contactarse
-              </Button>
-            </ModalFooter>
-          </ModalContent>*/
