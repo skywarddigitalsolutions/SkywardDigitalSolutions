@@ -53,7 +53,7 @@ export default function Footer() {
             </li>
             <li>
               <a href="/#Faq" className="hover:text-gray-300">
-                Preguntas frecuentes
+                Faq
               </a>
             </li>
             <li>

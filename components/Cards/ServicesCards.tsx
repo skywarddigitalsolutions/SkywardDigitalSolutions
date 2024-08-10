@@ -21,14 +21,14 @@ const ServicesCards = () => {
     <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8">
       <motion.div
         ref={ref1}
-        className="card col-span-12"
+        className="col-span-12 sm:col-span-4 !items-start"
         variants={cardVariants}
         initial="hidden"
         animate={inView1 ? "visible" : "hidden"}
         transition={{ duration: 1 }}
       >
-        <Card className="relative h-[300px] sm:hidden">
-          <CardHeader className="absolute top-4 left-4 p-2 rounded-md z-50 bg-transparent">
+        <Card className="relative h-[300px]">
+          <CardHeader className="absolute top-4 left-4 p-2 rounded-md z-30 bg-transparent">
             <div className="d-flex flex-col justify-center">
               <p className="text-tiny text-white uppercase font-bold">Sitio Web</p>
               <h4 className="text-white/60 font-medium text-large">Personalizable</h4>
@@ -54,14 +54,14 @@ const ServicesCards = () => {
 
       <motion.div
         ref={ref2}
-        className="card col-span-12"
+        className="col-span-12 sm:col-span-4 !items-start"
         variants={cardVariants}
         initial="hidden"
         animate={inView2 ? "visible" : "hidden"}
         transition={{ duration: 1 }}
       >
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
-          <CardHeader className="absolute top-4 left-4 p-2 rounded-md z-50 bg-transparent">
+        <Card className="h-[300px]">
+          <CardHeader className="absolute top-4 left-4 p-2 rounded-md z-30 bg-transparent">
             <div className="d-flex flex-col justify-center">
               <p className="text-tiny text-white uppercase font-bold">Diseño de sitio web</p>
               <h4 className="text-white/60 font-medium text-large">Personalizable</h4>
@@ -87,14 +87,14 @@ const ServicesCards = () => {
 
       <motion.div
         ref={ref3}
-        className="card col-span-12"
+        className="col-span-12 sm:col-span-4 !items-start"
         variants={cardVariants}
         initial="hidden"
         animate={inView3 ? "visible" : "hidden"}
         transition={{ duration: 1 }}
       >
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
-          <CardHeader className="absolute top-4 left-4 p-2 rounded-md z-50 bg-transparent">
+        <Card className="h-[300px]">
+          <CardHeader className="absolute top-4 left-4 p-2 rounded-md z-30 bg-transparent">
             <div className="d-flex flex-col justify-center">
               <p className="text-tiny text-white uppercase font-bold">CopyWriting</p>
               <h4 className="text-white/60 font-medium text-large">De tu sitio web</h4>
@@ -120,14 +120,14 @@ const ServicesCards = () => {
 
       <motion.div
         ref={ref4}
-        className="card col-span-12"
+        className="col-span-12 sm:col-span-5"
         variants={cardVariants}
         initial="hidden"
         animate={inView4 ? "visible" : "hidden"}
         transition={{ duration: 1 }}
       >
-        <Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-5">
-          <CardHeader className="absolute top-4 left-4 p-2 rounded-md z-50 bg-transparent">
+        <Card isFooterBlurred className="w-full h-[300px]">
+          <CardHeader className="absolute top-4 left-4 p-2 rounded-md z-30 bg-transparent">
             <div className="d-flex flex-col justify-center">
               <p className="text-tiny text-white uppercase font-bold">Mantenimiento</p>
               <h4 className="text-white/60 font-medium text-large">Mensual</h4>
@@ -151,14 +151,14 @@ const ServicesCards = () => {
 
       <motion.div
         ref={ref5}
-        className="card col-span-12"
+        className="col-span-12 sm:col-span-7"
         variants={cardVariants}
         initial="hidden"
         animate={inView5 ? "visible" : "hidden"}
         transition={{ duration: 1 }}
       >
-        <Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-7">
-          <CardHeader className="absolute top-4 left-4 p-2 rounded-md z-50 bg-transparent">
+        <Card isFooterBlurred className="w-full h-[300px]">
+          <CardHeader className="absolute top-4 left-4 p-2 rounded-md z-30 bg-transparent">
             <div className="d-flex flex-col justify-center">
               <p className="text-tiny text-white uppercase font-bold">SEO</p>
               <h4 className="text-white/60 font-medium text-large">Para tu sitio web</h4>
