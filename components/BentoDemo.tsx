@@ -17,7 +17,7 @@ interface Proyecto {
   tooltip2: string;
   tooltip3: string;
   tooltip4: string;
-  tooltip5: string;
+  //tooltip5: string;
   link: string;
 }
 
@@ -33,10 +33,10 @@ const BentoDemo: React.FC = () => {
         "Sencillo y minimalista",
       image: "/screenproyecto1.webp",
       tooltip1: "5 colores",
-      tooltip2: "5 secciones",
+      tooltip2: "SPA",
       tooltip3: "20 días",
       tooltip4: "100% personalizado",
-      tooltip5: "SPA",
+      //tooltip5: "SPA",
       link: "https://www.airesdepausa.com",
     },
     {
@@ -47,17 +47,27 @@ const BentoDemo: React.FC = () => {
       tooltip2: "5 secciones",
       tooltip3: "7 días",
       tooltip4: "Diseño traido por el cliente",
-      tooltip5: "Hasta 5 secciones",
+      //tooltip5: "Landing page",
       link: "https://ascensorestecnics.netlify.app/",
     },
-
+    {
+      title: "Harmony Haven",
+      content: "Sencillo y moderno",
+      image: "/screenproyecto4.webp",
+      tooltip1: "3 colores",
+      tooltip2: "5 secciones",
+      tooltip3: "7 días",
+      tooltip4: "Diseño realizado por nosotros",
+      //tooltip5: "Landing page",
+      link: "https://harmonyhaven.com.ar/",
+    }
   ];
 
   
 
   useEffect(() => {
     const handleResize = () => {
-      setIsDesktop(window.innerWidth >= 1280); // xl breakpoint
+      setIsDesktop(window.innerWidth >= 1280);
     };
     handleResize();
     window.addEventListener("resize", handleResize);
