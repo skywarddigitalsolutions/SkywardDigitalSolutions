@@ -184,7 +184,7 @@ const BentoDemo: React.FC = () => {
                     <MdOutlineDesignServices className="text-white h-4 w-4" />
                   </span>
                 </Tooltip>
-                <Tooltip
+               {/*  <Tooltip
                   content={selectedProject.tooltip5}
                   isOpen={visibleTooltip === "tooltip5"}
                 >
@@ -196,7 +196,7 @@ const BentoDemo: React.FC = () => {
                   >
                     <FaSitemap className="text-white h-4 w-4" />
                   </span>
-                </Tooltip>
+                </Tooltip> */}
               </div>
 
               <Link
@@ -249,11 +249,11 @@ const BentoDemo: React.FC = () => {
                     <MdOutlineDesignServices className="text-white h-4 w-4" />
                   </span>
                 </Tooltip>
-                <Tooltip content={proyectos[0].tooltip5}>
+                {/* <Tooltip content={proyectos[0].tooltip5}>
                   <span className="cursor-pointer rounded-full border border-white/10 bg-primario/5 p-3 text-white transition-colors hover:border-primario/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-10">
                     <FaSitemap className="text-white h-4 w-4" />
                   </span>
-                </Tooltip>
+                </Tooltip> */}
               </div>
 
               <Link
