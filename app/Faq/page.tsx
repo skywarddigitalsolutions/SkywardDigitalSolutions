@@ -75,7 +75,7 @@ const Faq = () => {
         <Accordion variant="light" className="w-full">
           {faqItems.map((item, index) => (
             <AccordionItem
-              key={index}
+              key={Number(index)}
               aria-label={`Accordion ${index + 1}`}
               title={<span className="text-gray-400">{item.title}</span>}
             >

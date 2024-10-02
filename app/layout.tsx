@@ -7,12 +7,13 @@ import "../styles/globals.css";
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sds.com.ar"),
   title: "Skyward Digital Solutions - Creamos tu sitio web",
   description: "Descubre cómo elevar tu visión con un sitio web único para tu marca",
   icons: {
-    icon: '/favicon.png',
-    shortcut: '/favicon.png',
-    apple: '/favicon.png',
+    icon: '/favicon.webp',
+    shortcut: '/favicon.webp',
+    apple: '/favicon.webp',
   },
   openGraph: {
     title: "Skyward Digital Solutions - Creamos tu sitio web",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "SDS",
     images: [
       {
-        url: "/favicon.png",
+        url: "/favicon.webp",
         width: 800,
         height: 600,
         alt: "SDS Logo",
@@ -55,7 +56,7 @@ export default function RootLayout({
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="es_ES" />
         <link rel="canonical" href="https://sds.com.ar" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.webp" />
       </head>
       <body className={jakarta.className}>
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>

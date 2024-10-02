@@ -2,9 +2,12 @@
 	"name": "next-app-template",
 	"version": "0.0.1",
 	"private": true,
+	"engines": {
+		"node": "20.x"
+	},
 	"scripts": {
 		"dev": "next dev",
-		"build": "next build",
+		"build": "next build && next export && critical public/index.html --inline --css public/_next/static/css/*.css",
 		"start": "next start",
 		"lint": "next lint"
 	},
@@ -38,6 +41,7 @@
 	},
 	"devDependencies": {
 		"@types/node": "20.14.10",
-		"@types/react": "^18.3.3"
+		"@types/react": "^18.3.3",
+		"critical": "^7.2.1"
 	}
 }

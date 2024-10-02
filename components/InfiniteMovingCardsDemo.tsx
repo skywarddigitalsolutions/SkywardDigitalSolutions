@@ -35,18 +35,3 @@ const testimonials = [
   },
 
 ];
-
-/*
-  {
-    quote:
-      "Estamos encantados con el diseño que crearon para nuestro centro integral de estética. Capturaron perfectamente la esencia de nuestro negocio, creando un sitio web visualmente atractivo y funcional. Desde que lanzamos el nuevo sitio, hemos experimentado un aumento significativo en el número de clientes que nos contactan. ¡Gracias por ayudarnos a crecer y atraer más clientes!",
-    name: "Daniel",
-    title: "Harmony Haven",
-  },
-  {
-    quote:
-          "Notamos que mejoró significativamente nuestra visibilidad y atracción de clientes. Estamos impresionados con el servicio personalizado y la profesionalidad mostrada en cada etapa del proceso. Recomendaríamos a Skyward sin dudarlo a cualquier empresa que busque destacarse en el mercado digital.",
-    name: "Nombre",
-    title: "Empresa",
-  },
-*/

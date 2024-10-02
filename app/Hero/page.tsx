@@ -1,5 +1,6 @@
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import FotoCerebro from "../../public/manocerebro.webp";
+import FondoImage from "../../public/fondo.webp";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,14 +10,18 @@ export default function Hero() {
   return (
     <div
       className="min-h-screen relative bg-black grid justify-center items-center mt-20 lg:mt-0 grid-cols-1 lg:grid-cols-2 mb-auto"
-      style={{
-        backgroundImage: `url('fondo.png')`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
       id="Inicio"
     >
-      <div className="grid justify-center z-10 sm:mt-20 lg:mt-10 sm:mx-10">
+      {/* Contenedor para la imagen de fondo */}
+      <Image
+        src={FondoImage}
+        alt="Fondo"
+        quality={100}
+        priority
+        className="absolute inset-0 w-full h-full object-cover z-0"
+      />
+
+      <div className="relative z-10 grid justify-center sm:mt-20 lg:mt-10 sm:mx-10">
         <h1 className="text-white text-center lg:text-left mt-10 text-5xl lg:text-8xl font-extrabold mb-1">
           {" "}
           Skyward{" "}
@@ -38,19 +43,25 @@ export default function Hero() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className=" mt-10 px-4 lg:px-12 py-4 rounded-xl bg-secundario/50 font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[white] hover:text-secundario transition-colors duration-200">
+            <button className="mt-10 px-4 lg:px-12 py-4 rounded-xl bg-secundario/50 font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[white] hover:text-secundario transition-colors duration-200">
               Contactános
             </button>
           </Link>
           <Link href="#Proyectos">
-            <button className=" mt-10 px-4 lg:px-12  py-4 rounded-xl bg-white font-bold text-secundario tracking-widest uppercase transform hover:scale-105 hover:bg-[white] hover:text-secundario transition-colors duration-200">
+            <button className="mt-10 px-4 lg:px-12 py-4 rounded-xl bg-white font-bold text-secundario tracking-widest uppercase transform hover:scale-105 hover:bg-[white] hover:text-secundario transition-colors duration-200">
               Ver Proyectos
             </button>
           </Link>
         </div>
       </div>
-      <div className="lg:mt-0 flex justify-center items-center">
-        <Image src={FotoCerebro} alt="imagen cerebro" className="animate-float" />
+
+      <div className="relative z-10 lg:mt-0 flex justify-center items-center">
+        <Image
+          src={FotoCerebro}
+          alt="imagen cerebro"
+          className="animate-float"
+          priority
+        />
       </div>
     </div>
   );

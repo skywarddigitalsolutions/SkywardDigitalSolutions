@@ -7,6 +7,7 @@ import { AiFillInteraction } from "react-icons/ai";
 import { GrHostMaintenance } from "react-icons/gr";
 import { IoReloadOutline } from "react-icons/io5";
 import { IoMdAdd } from "react-icons/io";
+import Image from "next/image";
 
 interface ProjectProps {
   title: string;
@@ -32,14 +33,15 @@ const Project: React.FC<ProjectProps> = ({
   icon3,
 }) => {
   return (
-    <div
-      className="flex flex-col md:flex-row  gap-4  mb-48 rounded-2xl p-12 "
-      style={{
-        backgroundImage: `url('fondodetail.png')`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
+    <div className="relative flex flex-col md:flex-row gap-4 mb-48 rounded-2xl p-12">
+      {/* Imagen de fondo usando Next.js Image */}
+      <Image
+        src="/fondodetail.webp"
+        alt="Fondo de detalle"
+        objectPosition="center"
+        className="rounded-2xl -z-10"
+      />
+
       {/* Título y descripción */}
       <div className="md:w-1/2 p-4 flex flex-col justify-evenly">
         <div className="">
@@ -49,13 +51,13 @@ const Project: React.FC<ProjectProps> = ({
         <div className="">
           <h5 className="text-xl py-5">Beneficios:</h5>
           <div className="flex flex-col lg:flex-row py-5 gap-5 text-center">
-            <div className="flex flex-col  items-center text-sm lg:text-md gap-2 ">
+            <div className="flex flex-col items-center text-sm lg:text-md gap-2">
               {icon1} {beneficio1}
             </div>
-            <div className="flex flex-col  items-center text-sm lg:text-md gap-2 ">
+            <div className="flex flex-col items-center text-sm lg:text-md gap-2">
               {icon2} {beneficio2}
             </div>
-            <div className="flex flex-col  items-center text-sm lg:text-md gap-2 ">
+            <div className="flex flex-col items-center text-sm lg:text-md gap-2">
               {icon3} {beneficio3}
             </div>
           </div>
@@ -73,7 +75,6 @@ const Project: React.FC<ProjectProps> = ({
             src={projectUrl}
             className="w-full h-full border-none"
             title="Project Preview"
-            
           />
         </div>
       </div>
@@ -136,14 +137,15 @@ const projects = [
 
 export default function Desarrollo() {
   return (
-    <div
-      className="min-h-screen font-bold pt-12 bg-gray-100"
-      style={{
-        backgroundImage: `url('fondo.png')`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
+    <div className="relative min-h-screen font-bold pt-12 bg-gray-100">
+      {/* Imagen de fondo usando Next.js Image */}
+      <Image
+        src="/fondo.webp"
+        alt="Fondo de Desarrollo Web"
+        objectPosition="center"
+        className="-z-10"
+      />
+
       <TitleSections title={"Desarrollo Web Personalizado"} />
       <div id="contenido" className="container mx-auto p-4">
         {projects.map((project: any) => (

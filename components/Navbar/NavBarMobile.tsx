@@ -8,7 +8,7 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/navbar";
 import { link as linkStyles } from "@nextui-org/theme";
-import Logo from "../../public/logo-sds.png";
+import Logo from "../../public/logo-sds.webp";
 import { siteConfig } from "@/config/site";
 import { Link } from "@nextui-org/link";
 import NextLink from "next/link";
@@ -63,7 +63,7 @@ export const NavBarMobile = () => {
         <div className="mx-4 mt-2 flex flex-col gap-1">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem
-              key={`${item}-${index}`}
+              key={`${item.label}-${index}`}
               className="text-center text-[3rem] m-1"
             >
               <Link
