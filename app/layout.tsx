@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://sds.com.ar"),
   title: "Skyward Digital Solutions - Creamos tu sitio web",
   description:
-    "Eleva la presencia online de tu marca con un sitio web diseñado específicamente para destacar. Con un enfoque en el diseño personalizado, funcionalidad intuitiva y optimización para motores de búsqueda, asegura que tu página sea visualmente atractiva y fácil de encontrar en Google. Conquista tu mercado digital y convierte visitas en clientes.",
+    "Potencia tu marca con un sitio web diseñado para captar la atención y optimizado para Google. Con un diseño personalizado y funcionalidad intuitiva, tendrás una plataforma que refleje tu esencia y te ayude a convertir visitas en clientes.",
   icons: {
     icon: "/favicon.webp",
     shortcut: "/favicon.webp",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Skyward Digital Solutions - Creamos tu sitio web",
     description:
-      "Eleva la presencia online de tu marca con un sitio web diseñado específicamente para destacar. Con un enfoque en el diseño personalizado, funcionalidad intuitiva y optimización para motores de búsqueda, asegura que tu página sea visualmente atractiva y fácil de encontrar en Google. Conquista tu mercado digital y convierte visitas en clientes.s",
+      "Potencia tu marca con un sitio web diseñado para captar la atención y optimizado para Google. Con un diseño personalizado y funcionalidad intuitiva, tendrás una plataforma que refleje tu esencia y te ayude a convertir visitas en clientes.",
     url: "https://sds.com.ar",
     siteName: "SDS",
     images: [
