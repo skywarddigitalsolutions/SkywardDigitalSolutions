@@ -29,7 +29,7 @@ export default function Footer() {
           <h3 className="text-2xl font-bold mb-6">Navegación</h3>
           <ul className="space-y-4">
             <li>
-              <Link href="/" className="hover:text-gray-300"  title="Inicio">
+              <Link href="/" className="hover:text-gray-300" title="Inicio">
                 Inicio
               </Link>
             </li>

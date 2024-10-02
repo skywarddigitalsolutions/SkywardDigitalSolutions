@@ -83,6 +83,7 @@ const ContactoInfo = () => {
             href="https://www.facebook.com/skywarddigitalsolutions"
             target="_blank"
             rel="noopener noreferrer"
+            title="Facebook"
           >
             <div className="tooltip-container">
               <div className="tooltip hidden lg:block">
