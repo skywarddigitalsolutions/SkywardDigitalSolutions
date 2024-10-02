@@ -43,6 +43,8 @@ const ContactoInfo = () => {
                         title="Logo SDS"
                         width={100}
                         height={100}
+                        loading="lazy"
+
                       />{" "}
                     </div>
                     <div className="details">
@@ -92,6 +94,7 @@ const ContactoInfo = () => {
                         title="Logo SDS"
                         width={100}
                         height={100}
+                        loading="lazy"
                       />{" "}
                     </div>
                     <div className="details">
@@ -141,6 +144,7 @@ const ContactoInfo = () => {
                         title="Logo SDS"
                         width={100}
                         height={100}
+                        loading="lazy"
                       />{" "}
                     </div>
                     <div className="details">
@@ -182,6 +186,7 @@ const ContactoInfo = () => {
           className="pt-12"
           width={500}
           height={300}
+          loading="lazy"
         />
       </div>
     </div>

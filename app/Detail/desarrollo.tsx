@@ -40,6 +40,7 @@ const Project: React.FC<ProjectProps> = ({
         alt="Fondo de detalle"
         objectPosition="center"
         className="rounded-2xl -z-10"
+        loading="lazy"
       />
 
       {/* Título y descripción */}

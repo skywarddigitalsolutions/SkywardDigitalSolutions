@@ -20,11 +20,26 @@ export const NavBarMobile = () => {
   const [isMenuOpen, setIsMenuOpen] = useReducer((current) => !current, false);
 
   return (
-    <NextUINavbar maxWidth="xl" className="fixed w-full z-50 top-0" isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
+    <NextUINavbar
+      maxWidth="xl"
+      className="fixed w-full z-50 top-0"
+      isMenuOpen={isMenuOpen}
+      onMenuOpenChange={setIsMenuOpen}
+    >
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
-          <NextLink className="flex justify-start items-center gap-1" href="#Inicio">
-            <Image src={Logo} alt="Brain Logo" className="h-[1.5rem] w-auto" />
+          <NextLink
+            className="flex justify-start items-center gap-1"
+            href="#Inicio"
+          >
+            <Image
+              src={Logo}
+              alt="Brain Logo"
+              className="h-[1.5rem] w-auto"
+              width={20}
+              height={20}
+              loading="lazy"
+            />
           </NextLink>
         </NavbarBrand>
         <ul className="hidden lg:flex gap-4 justify-start ml-2">
@@ -54,9 +69,7 @@ export const NavBarMobile = () => {
       </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-        <NavbarMenuToggle 
-          className="bg-main" 
-        />
+        <NavbarMenuToggle className="bg-main" />
       </NavbarContent>
 
       <NavbarMenu>

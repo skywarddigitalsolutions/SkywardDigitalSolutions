@@ -15,9 +15,11 @@ export default function Home() {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => {
+    const timeout = setTimeout(() => {
       setLoaded(true);
-    }, 1500);
+    }, 200); // Tiempo mínimo para el loader
+  
+    return () => clearTimeout(timeout);
   }, []);
 
   return (

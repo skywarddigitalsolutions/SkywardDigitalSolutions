@@ -120,6 +120,7 @@ const BentoDemo: React.FC = () => {
               className="mb-12"
               width={400}
               height={400}
+              loading="lazy"
             />
             <div className="flex flex-col justify-center items-center">
               <h4 className="text-2xl lg:text-4xl mb-5 font-bold">
@@ -204,6 +205,7 @@ const BentoDemo: React.FC = () => {
               className="mb-12"
               width={400}
               height={400}
+              loading="lazy"
             />
             <div className="flex flex-col justify-center items-center">
               <h4 className="text-2xl lg:text-4xl mb-5 font-bold">

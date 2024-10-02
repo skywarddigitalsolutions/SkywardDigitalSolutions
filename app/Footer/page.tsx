@@ -15,6 +15,8 @@ export default function Footer() {
             width={150}
             height={150}
             className="my-10 mx-3"
+            loading="lazy"
+
           />
           <p className="text-gray-300 lg:max-w-sm mx-3">
             SkyWard Digital Solutions es tu socio confiable para llevar tu

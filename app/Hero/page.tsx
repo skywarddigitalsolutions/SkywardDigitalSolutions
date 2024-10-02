@@ -60,7 +60,10 @@ export default function Hero() {
           src={FotoCerebro}
           alt="imagen cerebro"
           className="animate-float"
+          width={20}
+          height={20}
           priority
+          layout="responsive"
         />
       </div>
     </div>

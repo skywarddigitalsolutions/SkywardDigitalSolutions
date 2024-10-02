@@ -1,8 +1,9 @@
 import React from "react";
-import { Card, CardHeader, CardFooter, Image } from "@nextui-org/react";
+import { Card, CardHeader, CardFooter } from "@nextui-org/react";
 import ButtonCards from "./ButtonCards";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Image from "next/image";
 
 const cardVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -35,11 +36,13 @@ const ServicesCards = () => {
             </div>
           </CardHeader>
           <Image
-            removeWrapper
             alt="Card background"
             className="w-full h-full object-cover"
             src="/designwebsite.webp"
+            width={20}
+            height={20}
             loading="lazy"
+            layout="responsive"
           />
           <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
             <div className="flex flex-grow gap-2 items-center">
@@ -68,11 +71,13 @@ const ServicesCards = () => {
             </div>
           </CardHeader>
           <Image
-            removeWrapper
             alt="Card background"
             className="z-0 w-full h-full object-cover"
-            src="diseñoweb.webp"
+            src="/diseñoweb.webp"
+            width={20}
+            height={20}
             loading="lazy"
+            layout="responsive"
           />
           <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
             <div className="flex flex-grow gap-2 items-center">
@@ -101,10 +106,12 @@ const ServicesCards = () => {
             </div>
           </CardHeader>
           <Image
-            removeWrapper
+            layout="responsive"
             alt="Card background"
             className="z-0 w-full h-full object-cover"
-            src="copy.webp"
+            src="/copy.webp"
+            width={20}
+            height={20}
             loading="lazy"
           />
           <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
@@ -134,10 +141,12 @@ const ServicesCards = () => {
             </div>
           </CardHeader>
           <Image
-            removeWrapper
+            layout="responsive"
             alt="Card example background"
             className="z-0 w-full h-full object-cover"
-            src="mantenimiento.webp"
+            src="/mantenimiento.webp"
+            width={20}
+            height={20}
             loading="lazy"
           />
           <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100 justify-between">
@@ -165,10 +174,12 @@ const ServicesCards = () => {
             </div>
           </CardHeader>
           <Image
-            removeWrapper
+            layout="responsive"
             alt="Relaxing app background"
             className="z-0 w-full h-full object-cover"
-            src="design5.webp"
+            src="/design5.webp"
+            width={20}
+            height={20}
             loading="lazy"
           />
           <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">

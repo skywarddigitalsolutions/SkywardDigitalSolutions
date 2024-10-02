@@ -11,10 +11,10 @@ export default function Contacto() {
         src="/fondo5.webp"
         alt="Fondo contacto"
         quality={100}
-        priority
         className="absolute inset-0 w-full h-full object-cover -z-10"
         height={100}
         width={100}
+        loading="lazy"
       />
 
       <TitleSections title={"Contacto"} />
