@@ -19,6 +19,7 @@ export default function Hero() {
         quality={100}
         loading="lazy"
         className="absolute inset-0 w-full h-full object-cover z-0"
+        title="Fondo Hero"
       />
 
       <div className="relative z-10 grid justify-center sm:mt-20 lg:mt-10 sm:mx-10">
@@ -64,6 +65,7 @@ export default function Hero() {
           height={20}
           priority
           layout="responsive"
+          title="Foto de cerebro"
         />
       </div>
     </div>

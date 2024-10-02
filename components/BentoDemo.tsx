@@ -206,6 +206,7 @@ const BentoDemo: React.FC = () => {
               width={400}
               height={400}
               loading="lazy"
+              title="Aires de Pausa"
             />
             <div className="flex flex-col justify-center items-center">
               <h4 className="text-2xl lg:text-4xl mb-5 font-bold">

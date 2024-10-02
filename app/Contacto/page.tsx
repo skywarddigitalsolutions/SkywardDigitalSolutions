@@ -14,6 +14,7 @@ export default function Contacto() {
         height={100}
         width={100}
         loading="lazy"
+        title="Fondo contacto"
       />
 
       <TitleSections title={"Contacto"} />

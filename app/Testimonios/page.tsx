@@ -13,6 +13,7 @@ export default function Testimonios() {
     style={{ objectFit: "cover", objectPosition: "center" }}
     className="-z-10"
     loading="lazy"
+    title="Fondo de Testimonios"
   />
 
   <div className="relative z-10"> {/* Contenido sobre la imagen */}

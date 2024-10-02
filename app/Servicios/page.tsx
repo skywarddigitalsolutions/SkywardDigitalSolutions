@@ -17,6 +17,7 @@ export default function Servicios() {
         style={{ objectFit: "cover", objectPosition: "center" }}
         className="-z-10"
         loading="lazy"
+        title="Fondo de Servicios"
       />
 
       <div className="relative z-10">

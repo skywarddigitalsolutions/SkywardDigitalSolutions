@@ -39,6 +39,7 @@ export const NavBarMobile = () => {
               width={20}
               height={20}
               loading="lazy"
+              title="Logo SDS"
             />
           </NextLink>
         </NavbarBrand>

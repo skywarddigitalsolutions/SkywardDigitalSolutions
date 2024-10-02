@@ -91,6 +91,7 @@ export const ProductItem = ({
         alt={title}
         className="flex-shrink-0 rounded-md shadow-2xl"
         loading="lazy"
+        title="Producto imagen"
       />
       <div>
         <h4 className="text-xl font-bold mb-1 text-white dark:text-white">

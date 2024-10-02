@@ -16,7 +16,7 @@ export default function Footer() {
             height={150}
             className="my-10 mx-3"
             loading="lazy"
-
+            title="Logo SDS"
           />
           <p className="text-gray-300 lg:max-w-sm mx-3">
             SkyWard Digital Solutions es tu socio confiable para llevar tu

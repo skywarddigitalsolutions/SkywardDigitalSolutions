@@ -44,7 +44,6 @@ const ContactoInfo = () => {
                         width={100}
                         height={100}
                         loading="lazy"
-
                       />{" "}
                     </div>
                     <div className="details">
@@ -187,6 +186,7 @@ const ContactoInfo = () => {
           width={500}
           height={300}
           loading="lazy"
+          title="Coding"
         />
       </div>
     </div>

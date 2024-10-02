@@ -12,6 +12,7 @@ export default function Proyectos() {
         style={{ objectFit: "cover", objectPosition: "center" }}
         className="-z-10"
         loading="lazy"
+        title="Fondo de Proyectos"
       />
 
       <div className="xs:mt-5 lg:mt-10 relative">

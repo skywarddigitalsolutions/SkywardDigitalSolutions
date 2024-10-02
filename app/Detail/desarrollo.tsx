@@ -41,6 +41,7 @@ const Project: React.FC<ProjectProps> = ({
         objectPosition="center"
         className="rounded-2xl -z-10"
         loading="lazy"
+        title="Fondo de detalle"
       />
 
       {/* Título y descripción */}
@@ -147,6 +148,7 @@ export default function Desarrollo() {
         className="-z-10"
         width={100}
         height={100}
+        title="Fondo de Desarrollo Web"
       />
 
       <TitleSections title={"Desarrollo Web Personalizado"} />
