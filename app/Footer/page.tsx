@@ -1,5 +1,5 @@
 import { FaWhatsapp, FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
-import Link from "next/link"; // Importa el componente Link
+import Link from "next/link";
 import Logo from "../../public/logosds.webp";
 import Image from "next/image";
 
@@ -29,32 +29,32 @@ export default function Footer() {
           <h3 className="text-2xl font-bold mb-6">Navegación</h3>
           <ul className="space-y-4">
             <li>
-              <Link href="/" className="hover:text-gray-300">
+              <Link href="/" className="hover:text-gray-300"  title="Inicio">
                 Inicio
               </Link>
             </li>
             <li>
-              <Link href="/#Servicios" className="hover:text-gray-300">
+              <Link href="/#Servicios" className="hover:text-gray-300" title="Servicios">
                 Servicios
               </Link>
             </li>
             <li>
-              <Link href="/#Proyectos" className="hover:text-gray-300">
+              <Link href="/#Proyectos" className="hover:text-gray-300" title="Proyectos">
                 Proyectos
               </Link>
             </li>
             <li>
-              <Link href="/#Testimonios" className="hover:text-gray-300">
+              <Link href="/#Testimonios" className="hover:text-gray-300" title="Testimonios">
                 Testimonios
               </Link>
             </li>
             <li>
-              <Link href="/#Faq" className="hover:text-gray-300">
+              <Link href="/#Faq" className="hover:text-gray-300" title="Faq">
                 Faq
               </Link>
             </li>
             <li>
-              <Link href="/#Contacto" className="hover:text-gray-300">
+              <Link href="/#Contacto" className="hover:text-gray-300" title="Contacto">
                 Contacto
               </Link>
             </li>
@@ -70,6 +70,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"
+              title="WhatsApp"
             >
               <FaWhatsapp className="h-8 w-8 hover:text-gray-300 transition" />
             </Link>
@@ -78,6 +79,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
+              title="Instagram"
             >
               <FaInstagram className="h-8 w-8 hover:text-gray-300 transition" />
             </Link>
@@ -86,6 +88,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
+              title="Facebook"
             >
               <FaFacebook className="h-8 w-8 hover:text-gray-300 transition" />
             </Link>
@@ -94,6 +97,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="TikTok"
+              title="TikTok"
             >
               <FaTiktok className="h-8 w-8 hover:text-gray-300 transition" />
             </Link>

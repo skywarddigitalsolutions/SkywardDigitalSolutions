@@ -31,6 +31,7 @@ export const NavBarMobile = () => {
           <NextLink
             className="flex justify-start items-center gap-1"
             href="#Inicio"
+            title="Inicio"
           >
             <Image
               src={Logo}
@@ -53,6 +54,7 @@ export const NavBarMobile = () => {
                 )}
                 color="foreground"
                 href={item.href}
+                title="Inicio"
               >
                 {item.label}
               </NextLink>
@@ -86,6 +88,7 @@ export const NavBarMobile = () => {
                 size="lg"
                 className="text-xl font-bold uppercase"
                 onPress={() => setIsMenuOpen()}
+                title={item.label}
               >
                 {item.label}
               </Link>

@@ -13,7 +13,7 @@ export default function NavbarDesktop({ className }: { className?: string }) {
     >
       <Menu>
         {siteConfig.navMenuItems.map((item, index) => (
-          <Link key={Number(index)} href={item.href} className="text-white">
+          <Link key={Number(index)} href={item.href} className="text-white" title={item.label}>
             {item.label}
           </Link>
         ))}

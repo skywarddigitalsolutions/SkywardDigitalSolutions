@@ -19,6 +19,7 @@ const ContactoInfo = () => {
           href="https://wa.me/+5491133495502?text=Hola%20,%20quiero%20más%20información"
           target="_blank"
           rel="noopener noreferrer"
+          title="Contactános"
         >
           <button className="my-10 px-4 py-4 rounded-xl bg-transparent border border-secundario font-bold text-white tracking-widest hover:bg-[white] hover:text-secundario transition-colors duration-200">
             Quiero contactarme
@@ -30,6 +31,7 @@ const ContactoInfo = () => {
             href="https://www.instagram.com/skywarddigitalsolutions"
             target="_blank"
             rel="noopener noreferrer"
+            title="Instagram"
           >
             <div className="tooltip-container">
               <div className="tooltip hidden lg:block">
@@ -60,6 +62,7 @@ const ContactoInfo = () => {
                   href="https://www.instagram.com/skywarddigitalsolutions"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Instagram"
                 >
                   <div className="layer">
                     <span></span>
@@ -110,6 +113,7 @@ const ContactoInfo = () => {
                   href="https://www.facebook.com/skywarddigitalsolutions"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Facebook"
                 >
                   <div className="layer">
                     <span></span>
@@ -130,6 +134,7 @@ const ContactoInfo = () => {
             href="https://www.tiktok.com/skywarddigitalsolutions"
             target="_blank"
             rel="noopener noreferrer"
+            title="TikTok"
           >
             <div className="tooltip-container">
               <div className="tooltip hidden lg:block">
@@ -160,6 +165,7 @@ const ContactoInfo = () => {
                   href="https://www.tiktok.com/skywarddigitalsolutions"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="TikTok"
                 >
                   <div className="layer">
                     <span></span>

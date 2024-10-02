@@ -43,12 +43,13 @@ export default function Hero() {
             href="https://wa.me/+5491133495502?text=Hola%20,%20quiero%20más%20información"
             target="_blank"
             rel="noopener noreferrer"
+            title="Contactános"
           >
             <button className="mt-10 px-4 lg:px-12 py-4 rounded-xl bg-secundario/50 font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[white] hover:text-secundario transition-colors duration-200">
               Contactános
             </button>
           </Link>
-          <Link href="#Proyectos">
+          <Link href="#Proyectos" title="Proyectos">
             <button className="mt-10 px-4 lg:px-12 py-4 rounded-xl bg-white font-bold text-secundario tracking-widest uppercase transform hover:scale-105 hover:bg-[white] hover:text-secundario transition-colors duration-200">
               Ver Proyectos
             </button>

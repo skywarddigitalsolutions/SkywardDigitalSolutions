@@ -190,6 +190,7 @@ const BentoDemo: React.FC = () => {
                 passHref
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Ver página"
               >
                 <button className="px-4 py-2 bg-secundario/50 text-md  mt-5 text-white rounded-lg font-bold transform hover:-translate-y-1 transition duration-400">
                   Ver página
@@ -246,6 +247,7 @@ const BentoDemo: React.FC = () => {
                 passHref
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Ver página"
               >
                 <button className="px-4 py-2 bg-secundario/50 text-md  mt-5 text-white rounded-lg font-bold transform hover:-translate-y-1 transition duration-400">
                   Ver página
