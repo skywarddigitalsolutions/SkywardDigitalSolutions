@@ -7,7 +7,7 @@
 	},
 	"scripts": {
 		"dev": "next dev",
-		"build": "next build && next export && critical public/index.html --inline --css public/_next/static/css/*.css",
+		"build": "next build",
 		"start": "next start",
 		"lint": "next lint"
 	},
