@@ -145,6 +145,8 @@ export default function Desarrollo() {
         alt="Fondo de Desarrollo Web"
         objectPosition="center"
         className="-z-10"
+        width={100}
+        height={100}
       />
 
       <TitleSections title={"Desarrollo Web Personalizado"} />
